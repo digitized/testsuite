@@ -1,15 +1,16 @@
 # Test Suite
 Test Suite helps quickly test the code that you have written without the need to constantly refresh your browser.
 
-Features:
+**Features:**
 - Quickly switch between different test suites
 - Continue coding without needed to refresh your browser to see the status of your tests
 
 # Installation
-1. Navigate to the root directory of Test Suite
-2. Run 'npm install' to install the dependencies need
-3. Place your tests inside 'code' folder
-4. Create a new file called config.js in base directory
+1. Install [livereload chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+2. Navigate to the root directory of Test Suite
+3. Run 'npm install' to install the dependencies need
+4. Place your tests inside 'code' folder
+5. Create a new file called config.js in base directory
 
 Each test requires certain properties: 
 
@@ -43,7 +44,6 @@ var testSuites = [
 
 module.exports = testSuites[testNumber-1];
 ```
-5. Install [livereload chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 
 # Using Test Suite
 1. Navigate to root directory in terminal
