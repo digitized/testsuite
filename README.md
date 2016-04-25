@@ -1,5 +1,5 @@
 # Test Suite
-Test Suite to help quickly test the code that you have written without refreshing your browser.
+Test Suite helps quickly test the code that you have written without refreshing your browser.
 Features:
 - Quickly switch between different test suites
 - Continue coding without needed to refresh your browser to see the status of your tests
