@@ -4,11 +4,15 @@ Test Suite helps quickly test the code that you have written without the need to
 **Features:**
 - Quickly switch between different test suites
 - Continue coding without needed to refresh your browser to see the status of your tests
+# Prerequisites
+* [Node](https://nodejs.org/en/) installed 
+* [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) installed globally
+
 
 # Installation
 1. Install [livereload chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 2. Navigate to the root directory of Test Suite
-3. Run 'npm install' to install the dependencies need
+3. Run 'npm install' to install the dependencies needed
 4. Place your tests inside 'code' folder
 5. Create a new file called config.js in base directory
 
