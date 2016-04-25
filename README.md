@@ -5,18 +5,21 @@ Features:
 - Continue coding without needed to refresh your browser to see the status of your tests
 
 # Installation
-Run 'npm install' to install the dependicies need
-Place your code inside 'code' folder
-
-Create a new file called config.js in base directory
+1. Navigate to the root directory of Test Suite
+2. Run 'npm install' to install the dependencies need
+3. Place your tests inside 'code' folder
+4. Create a new file called config.js in base directory
 
 Each test requires certain properties: 
 
-* [required] folder // The directory to the main folder
+* folder   **[ Required ]**
+  * The directory to the main folder
   * All code changed in this folder will automatically notify livereload
-* [Required] testPage // Path to test html page
+* testPage **[ Required ]**
+  * Path to test html page
   * This is the HTML page that display the status of your tests
-* [Optional] library // Path to library folder required for tests
+* library  **[ Optional ]**
+  * Path to library folder required for tests
   * Any folder that has the depencies needed to run your test.
   * Make sure that the script src in the testPage HTML points to /lib
   * If none is specified, it will assume the dependecies are in the folder path
@@ -39,15 +42,14 @@ var testSuites = [
 
 module.exports = testSuites[testNumber-1];
 ```
-Install [livereload chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+5. Install [livereload chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 
 # Using Test Suite
-
-1. Run 'gulp run'
-2. Navigate Chrome Browser to http://localhost:3000
-3. Turn on livereload chrome extension
-
-Start coding!
+1. Navigate to root directory in terminal
+2. Type and run 'gulp run' 
+3. Navigate to [localhost](http://localhost:3000) in your chrome browser
+4. Turn on livereload chrome extension
+5. Start coding!
 
 
 
