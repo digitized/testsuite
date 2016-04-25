@@ -4,6 +4,7 @@ Test Suite helps quickly test the code that you have written without the need to
 **Features:**
 - Quickly switch between different test suites
 - Continue coding without needed to refresh your browser to see the status of your tests
+
 # Prerequisites
 * [Node](https://nodejs.org/en/) installed 
 * [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) installed globally
