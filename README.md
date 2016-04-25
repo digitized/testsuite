@@ -29,7 +29,7 @@ Each test requires certain properties:
 Sample config file:
 ```
 var testNumber = 2; // Specify the test you want to run
-var testSuites = [ 
+module.exports = [ 
   { // Test Number 1
     folder: 'someFolder/',
     library: 'someFolder/lib/',
@@ -40,9 +40,7 @@ var testSuites = [
     folder: 'someFolder/',
     testPage: 'someFolder/test.html'
   },
-];
-
-module.exports = testSuites[testNumber-1];
+][testNumber-1];
 ```
 
 # Using Test Suite
