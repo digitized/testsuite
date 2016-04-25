@@ -12,11 +12,14 @@ Create a new file called config.js in base directory
 
 Each test requires certain properties: 
 
-* [required] folder // The directory to the main folder
+* folder [ Required ]
+  *The directory to the main folder
   * All code changed in this folder will automatically notify livereload
-* [Required] testPage // Path to test html page
+* testPage [ Required ]
+  * Path to test html page
   * This is the HTML page that display the status of your tests
-* [Optional] library // Path to library folder required for tests
+* library [ Optional ]
+  * Path to library folder required for tests
   * Any folder that has the depencies needed to run your test.
   * Make sure that the script src in the testPage HTML points to /lib
   * If none is specified, it will assume the dependecies are in the folder path
@@ -42,9 +45,9 @@ module.exports = testSuites[testNumber-1];
 Install [livereload chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 
 # Using Test Suite
-
-1. Run 'gulp run'
-2. Navigate Chrome Browser to http://localhost:3000
+1. Navigate to root directory in terminal
+1. Type and run 'gulp run' 
+2. Navigate to [localhost](http://localhost:3000) in your chrome browser
 3. Turn on livereload chrome extension
 
 Start coding!
